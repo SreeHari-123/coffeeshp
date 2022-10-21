@@ -1,0 +1,288 @@
+
+  .icon{
+    height: 30px;
+    width: 90px;  
+  }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  
+
+	
+body {
+  font-family: 'Source Code Pro', monospace; 
+	margin: 0;
+	min-height: 100vh;
+}
+
+
+.top{
+    color:white;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 200%;
+    text-align: center;
+
+
+}
+.topnav
+{
+   height: 830px;
+   width: 100%;
+   background-image: url("./header-bg.jpg");
+   background-size: cover;
+   margin-top: 40px;
+   
+   
+}
+li,a{
+  display: block;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+    
+    .main_nav{
+      margin-left: 1200px;
+    }
+    p{
+      color: white;
+      font-weight: 200;
+      font: size 20px;
+    }
+    
+    .read{
+      
+        background-color: white;
+        border: none;
+        color: rgb(42, 38, 38);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 70px;
+      
+    }
+    .read:hover{
+      background-color: rgb(42, 38, 38);
+      color: white;
+    }
+    .middle{
+      height: 830px;
+      width: 100%; 
+      background-image: url("./menu-bg.jpg");
+      background-size: cover;
+    }
+h1{
+  text-align: center;
+}
+
+.gallery {
+  margin: 5px;
+  /* border: 1px solid #ccc; */
+  float: left;
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* 
+.gallery:hover {
+  /* border: 1px solid #777;} */
+ 
+
+
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+}
+
+.row{
+  height: 230px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: black;
+  font-weight: bolder;
+}
+.col{
+  height: 200px;
+  width: 390px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+.buycart{
+      
+  background-color:rgb(82, 15, 15);
+  border: none;
+  color:white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+
+}
+.buycart:hover{
+  background-color: white;
+  color:rgb(82, 15, 15);
+
+  font-weight: bolder;
+}
+
+.price{
+  font-size: large;
+  text-align: right;
+  padding-right: 15px;
+}
+
+.contact{
+  height: 500px;
+  width: 100%;
+  background-image: url("./menu-bg.jpg");
+  background-size: cover;
+
+}
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.formbold-mb-5 {
+  margin-bottom: 20px;
+}
+.formbold-pt-3 {
+  padding-top: 12px;
+}
+.formbold-main-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px;
+}
+
+.formbold-form-wrapper {
+  margin: 0 auto;
+  max-width: 550px;
+  width: 100%;
+  background: white;
+}
+.formbold-form-label {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  color: #07074d;
+  margin-bottom: 12px;
+}
+.formbold-form-label-2 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.formbold-form-input {
+  width: 100%;
+  padding: 12px 24px;
+  border-radius: 6px;
+  border: 1px solid #e0e0e0;
+  background: white;
+  font-weight: 500;
+  font-size: 16px;
+  color: #6b7280;
+  outline: none;
+  resize: none;
+}
+.formbold-form-input:focus {
+  border-color: #6a64f1;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.formbold-btn {
+  text-align: center;
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 14px 32px;
+  border: none;
+  font-weight: 600;
+  background-color: rgb(82, 15, 15);
+  color: white;
+  cursor: pointer;
+}
+.formbold-btn:hover {
+  background-color: #f2f2f2;
+  color: rgb(82, 15, 15);
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.formbold--mx-3 {
+  margin-left: -12px;
+  margin-right: -12px;
+}
+.formbold-px-3 {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.flex {
+  display: flex;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.w-full {
+  width: 100%;
+}
+@media (min-width: 540px) {
+  .sm\:w-half {
+    width: 50%;
+  }
+}
+label{
+  padding-top: 5px;
+  padding-left: 5px;
+}
+.fo{
+  color: white;
+  position: absolute;
+  text-align: center;
+  display: block;
+  margin-top: 250px;
+  margin-left: 750px;
+  font-size: larger;
+  
+}
+.foot{
+  height: 300px;
+  width: 100%;
+  background-image: url("./footer-bg.jpg");
+  background-size: cover;
+  
+
+}
